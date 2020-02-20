@@ -42,7 +42,8 @@ class TaskWidget(ToggleButton):
 
     def reset(self):
         self.state = "normal"
-        self.clock_event.cancel()
+        if self.clock_event:
+            self.clock_event.cancel()
         self.elapsed = 0
         self.text = self.name
 
