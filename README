@@ -1,0 +1,8 @@
+This application is created to track one's work time.
+
+Target hardware: a touch screen powered by a Raspberry Pi.
+
+Usage: tap on a work category when one begins to work on. Tap again to stop when done or paused. Tap on Reset at the end of the day.
+
+How to install: Need python3, kivy. Run "python main.py".
+
